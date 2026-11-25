@@ -1,0 +1,34 @@
+{
+  "versions": [
+    {
+      "name": "version-2c6fd5e09aaf4cfa",
+      "date": "nov 22, 2026",
+      "files": [
+        {
+          "name": "hyperion.hpp",
+          "size": "50 kb",
+          "path": "downloads/hyperion.hpp",
+          "preview": true
+        },
+        {
+          "name": "offsets.hpp",
+          "size": "19 kb",
+          "path": "downloads/offsets.hpp",
+          "preview": true
+        },
+        {
+          "name": "structs.hpp",
+          "size": "12 kb",
+          "path": "downloads/structs.hpp",
+          "preview": true
+        },
+        {
+          "name": "payload.7z",
+          "size": "37 mb",
+          "path": "downloads/payload.7z",
+          "preview": false
+        }
+      ]
+    }
+  ]
+}

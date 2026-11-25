@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090c11">
+  <meta name="description" content="Credoxy file releases and version downloads.">
+  <title>Credoxy — Releases</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="nav-inner">
+      <a class="brand" href="./" aria-label="Credoxy home">credoxy</a>
+      <nav class="nav-actions" aria-label="Main navigation">
+        <a class="nav-button" href="README.md" target="_blank" rel="noreferrer"><span class="nav-icon">▤</span> docs</a>
+        <button class="nav-button" id="apiKeyButton" type="button"><span class="nav-icon">♙</span> api key</button>
+        <div class="user"><span class="avatar">V</span><span>@valeolua</span></div>
+        <button class="nav-button logout" id="logoutButton" type="button">logout</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <h1>which version you are looking for?</h1>
+    <section id="versions" class="versions" aria-label="Available versions">
+      <div class="loading">Loading releases...</div>
+    </section>
+    <p class="footer-note">Credoxy <span id="year"></span> · Release archive</p>
+  </main>
+
+  <dialog id="previewDialog" class="dialog">
+    <div class="dialog-head">
+      <div><span class="eyebrow">FILE PREVIEW</span><h2 id="previewTitle">filename</h2></div>
+      <button class="close-button" data-close="previewDialog" aria-label="Close preview">×</button>
+    </div>
+    <pre id="previewContent" class="preview-content">Loading...</pre>
+  </dialog>
+
+  <dialog id="messageDialog" class="dialog small-dialog">
+    <div class="dialog-head">
+      <h2 id="messageTitle">Notice</h2>
+      <button class="close-button" data-close="messageDialog" aria-label="Close">×</button>
+    </div>
+    <p id="messageBody" class="message-body"></p>
+    <button class="primary-button dialog-ok" data-close="messageDialog">okay</button>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
