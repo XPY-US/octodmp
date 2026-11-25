@@ -1,4 +1,4 @@
-# Credoxy — static release site
+# octodmp — static release site
 
 A GitHub Pages-friendly release listing inspired by the supplied screenshot. It uses plain HTML, CSS, and JavaScript—no build tools or dependencies.
 
@@ -8,7 +8,7 @@ Put the files you want to distribute inside `downloads/`. The sample filenames i
 
 Example:
 ```text
-credoxy-site/
+octodmp-site/
 ├── index.html
 ├── styles.css
 ├── app.js
